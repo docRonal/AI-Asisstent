@@ -1,0 +1,10 @@
+llama-cpp-python>=0.1.0
+chromadb>=0.3.26
+sentence-transformers>=2.2.2
+tqdm
+python-multipart
+fastapi
+uvicorn
+requests
+rich
+faiss-cpu    # optional if you prefer faiss backend; chroma can use duckdb+parquet
